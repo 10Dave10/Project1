@@ -1,0 +1,414 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Roboto:wght@100;300;400;500&display=swap");
+
+:root {
+  --primary: #072ac8;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  box-sizing: border-box;
+  
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color:#ebedf9;
+}
+
+
+
+/* ------------------------------------------------------------------------ */
+/* ------------------------------ INDEX html ------------------------------ */
+/* ------------------------------------------------------------------------ */
+
+/* ------------------------------ Splash page ------------------------------ */
+
+/* Your CSS code goes here */
+
+/* ------ CIRCULAR ANIMATION ------ */
+
+/* Your CSS code goes here */
+
+  /* ------------------------------ Navbar ------------------------------ */
+
+
+  .navegacion img{
+    width: 8rem;
+    margin-right: 3rem;
+  } 
+  .navegacion{
+    padding: 6rem;
+    padding-bottom: 0;
+    font-size:1.2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menuNav a{
+  color: grey;
+  text-decoration: none;
+  padding-left: 4.5rem;
+}
+.menuNav{
+  display: inline-block;
+    text-align: center;
+  
+}
+
+.link-button
+{
+  text-align: center;
+  display: inline-block;
+ align-items: center; 
+  padding: 1rem 1rem;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  width: 13rem;
+height: 3em;
+}
+
+/* ------------------------------ Header ------------------------------ */
+.empower
+{
+  display: flex;
+  
+}
+.empower{
+  padding: 6rem;
+  border-top: 0;
+}
+.empower p{
+  padding-top: 3rem;
+  color: grey;
+  font-size: 1.5rem;
+}
+.hero img{
+  position: absolute;
+   width: 32rem;
+   height: 35rem;
+  margin-bottom: 20rem;
+}
+.hero img:nth-child(2) {
+  position: relative;
+
+  width: 15rem;
+   height: 15rem;
+}
+
+.hero img:last-child {
+  position: relative;
+  width: 15rem;
+   height: 15rem;
+   top: 27rem;
+   left:6rem;
+}
+
+.empower h1{
+  font-size: 4rem;
+
+}
+.works{
+  text-align: right;
+}
+.textoprincipal div{
+  padding-top: 3rem;
+}
+.sinlink{
+  text-decoration: none;
+  color: rgb(59, 59, 59);
+  margin-right: 3rem;
+}
+
+/* ------------------------------ Partners ------------------------------ */
+
+.logos{
+  margin: 2rem;
+  margin-top: 0;
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+.logos img{
+  width: 10rem;
+  padding: 1.5rem;
+}
+/* ------------------------------ Recent projects ------------------------------ */
+
+/* Your CSS code goes here */
+
+/* ------------------------------ Client reviews ------------------------------ */
+
+
+.our_clients{
+position: relative;
+display: inline-block;
+
+  height: 25rem;
+  width: 80%;
+  background-color: 
+  #1b4a7c;;
+  margin-right: 10%;
+  margin-left: 10%;
+  background-image: url('/midterm-project-boiler/resources/images/testimonial-section/orbit.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 1%;
+  
+}
+.profile{
+  display: flex;
+  height: 3rem;
+  width: 6rem;
+  margin-top: 15%;
+  margin-left: 40%;
+  align-items: center;
+}
+.profile img{
+  height: 5.5rem;
+  border-radius: 80%;
+}
+
+.profile p{
+  margin-left: 1rem;
+}
+.profile p{
+font-size: .9rem;
+}
+.profile p:first-child {
+  color:#8dc4ff
+}
+
+.profile p:nth-child(2) {
+  color:#c3c9e3;
+}
+ .carita1{
+
+  width: 9rem;
+  height: 9rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.carita2{
+ width: 9rem;
+ height: 9rem;
+ position: absolute;
+ top: 0;
+ right: 0;
+}
+.carita3{
+ width: 9rem;
+ height: 9rem;
+ position: absolute;
+ bottom: 0;
+ left: 0;
+}
+.carita4{
+  width: 9rem;
+  height: 9rem;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+ }
+
+
+.our_clients h2{
+text-align: center;
+padding-top: 6rem;
+font-size: 2rem;
+font-weight: 700;
+color: #fff;
+}
+
+.our_clients h3{
+  position:absolute;
+  color:rgb(0, 200, 255);
+  font-weight: 400;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+/* ------------------------------ Services ------------------------------ */
+.interface img{
+  background-color: #c3c9e3;
+  height: 4rem;
+    width: 4rem;
+  border-radius:10%;
+}
+.services h2
+{
+padding-top:5rem;
+font-size: 3rem;
+text-align: left;
+margin-left: 10%;
+}
+.services h3{
+  font-weight: 700;
+  margin-bottom: 2rem;
+
+} 
+.interface{
+  padding-top: 4rem;
+  padding-left: 7rem;
+  padding-right: 7rem;
+  padding-bottom: 7rem;
+  display: flex;
+}
+
+.carta1{
+  padding: 3rem;
+  background-color: #8dc4ff;
+  /* border: 6px solid black; */
+  margin-left: 1rem;
+  margin-right: 1rem;
+  
+}
+.carta2{
+  padding: 3rem;
+  background-color: #8dc4ff;
+  margin-left: 1rem;
+
+  margin-right: 1rem;
+
+}.carta3{
+  padding: 3rem;
+  background-color: #8dc4ff;
+  margin-left: 1rem;
+
+margin-right: 1rem;
+
+}
+/* ------------------------------ Questions form ------------------------------ */
+.questions{
+  padding: 7rem;
+  width: 80%;
+  background-color:rgb(99, 206, 230);
+  margin-right: 10%;
+  margin-left: 10%;
+  height: 25rem;
+  margin-bottom: 8rem;
+ 
+}
+.questions h2{
+  font-size: 2rem;  
+text-align: center;
+color: #2a2b2d;
+}
+.questions p{
+padding: 2rem;
+  color: grey;
+  text-align: center;
+}
+
+.questions form{
+  display: flex;
+}
+#email{
+height: 3.5rem;
+margin-right: 1rem;
+border: none;
+font-size: 1rem;
+background-image: url("/midterm-project-boiler/resources/images/newsletter/icon/mail.svg");
+background-repeat: no-repeat;
+background-position: left center; /* Alinea la imagen en el centro del campo */ 
+}
+input[type="email"] {
+  padding-left: 2.5rem; /* Ajusta el espaciado entre el texto y la imagen */
+}
+#bto{
+  width: 30%;
+  background-color: #114276;
+border: none;
+color: #fff ;
+}
+
+/* ------------------------------ Footer ------------------------------ */
+footer{
+  margin-right: 6rem;
+}
+.footer-content 
+{
+  height: 10rem;
+  margin-right: 6rem;
+  margin-left: 10%;
+  display: flex;
+  flex-direction: row;
+
+}
+.footer-content img{  
+  height: 2rem;
+  width: 6rem ;
+  margin-bottom: 1.2rem;
+}
+.holis{
+  width: 190%;
+margin-right: 10%;}
+
+.footer-links {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  margin-bottom:2rem ;
+
+}
+.footer-links a{
+  text-decoration: none;
+  color:navy;
+}
+
+/* -------------------------------------------------------------------------- */
+/* ------------------------------ PROJECT html ------------------------------ */
+/* -------------------------------------------------------------------------- */
+
+/* ------------------------------ Project main ------------------------------ */
+
+/* Your CSS code goes here */
+
+/* ----------------------------------------------------------------------------- */
+/* ------------------------------ CONTACT-US html ------------------------------ */
+/* ----------------------------------------------------------------------------- */
+
+/* ------------------------------ Form ------------------------------ */
+
+/* Your CSS code goes here */
+
+/* ----------------------------------------------------------------------------- */
+/* ------------------------------ About html ------------------------------ */
+/* ----------------------------------------------------------------------------- */
+
+/* Your CSS code goes here */
+
+/* --------------------------------------------------------------------------- */
+/* ------------------------------ MEDIA QUERIES ------------------------------ */
+/* --------------------------------------------------------------------------- */
+
+/* ------------------------- Smaller than 990px (tablet) ------------------------- */
+@media (max-width: 990px) {
+  /* Your CSS code goes here */
+}
+
+/* ------------------------- Smaller than 766px (mobile) ------------------------- */
+@media (max-width: 766px) {
+  /* Your CSS code goes here */
+}
+
+/* ------------------------------ Hamburguer menu ------------------------------ */
+
+/* Your CSS code goes here */
+
+/* ------------------------------ Alert ------------------------------ */
+
+/* Your CSS code goes here */
+
+/* ------------------------------ Sticky scroll bar ------------------------------ */
+
+/* Your CSS code goes here */
