@@ -140,7 +140,22 @@ justify-content: center;
 }
 /* ------------------------------ Recent projects ------------------------------ */
 
-/* Your CSS code goes here */
+/* section #recent_projects{
+  display: flex;
+  flex-direction: row ;
+} */
+.recent_projects{
+  margin: 3rem;
+  padding: 2rem;
+}
+#recent_projects1{
+  display: flex;
+  flex-direction: row ;
+  padding: 2rem;
+}
+#recent_projects1 div{
+margin-right: 2rem;
+}
 
 /* ------------------------------ Client reviews ------------------------------ */
 
