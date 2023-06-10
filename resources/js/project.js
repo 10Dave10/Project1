@@ -79,3 +79,10 @@ fetch("https://raw.githubusercontent.com/ironhack-jc/mid-term-api/main/projects"
   .catch((err) => console.log("no existen datos"+err));  
 
 
+  const menuToggle = document.querySelector('.menu-toggle');
+  const menuNav = document.querySelector('.menuNav');
+  
+  menuToggle.addEventListener('click', function() {
+    menuNav.classList.toggle('open');
+  });
+  
