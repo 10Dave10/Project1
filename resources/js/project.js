@@ -1,3 +1,46 @@
+
+//EVENTO DE CARGA
+
+
+function mostrarpagina() {
+  
+
+ setTimeout(function() {
+     
+let divElement = document.getElementById('centrado');
+divElement.parentNode.removeChild(divElement);
+
+let eliminar_clase = document.getElementById("hidden");
+eliminar_clase.removeAttribute("id");
+
+  //mostrar elementos
+  document.body.style.display = "block";
+    }, 1000);
+ 
+
+}
+function cargarPagina(){
+  return new Promise(function(resolve){
+   
+  if(document.readyState==="complete"){//readyState describe el estado de carga del cocumento, si esta completo resuelve de  una la promesa 
+    resolve();
+    }
+    else{
+      window.addEventListener("load",resolve);
+      
+    }
+
+    ;//settimeout(function(){},2000) no utilizo
+  });//promise
+}//cargarPagina
+
+cargarPagina().then(mostrarpagina);
+
+
+
+
+
+
 /* Crea tu propia lógica para hacer fetch de un post y enseñar su información utilizando DOM manipulation */
 /* ADVANCED: consigue que la info del post funcione dinámicamente y enseñe un post u otro según la URL */
 fetch("https://raw.githubusercontent.com/ironhack-jc/mid-term-api/main/projects")
@@ -21,7 +64,7 @@ fetch("https://raw.githubusercontent.com/ironhack-jc/mid-term-api/main/projects"
       tituloh2.textContent=proyecto.name; //lo que esta en proyecto name se lo asigno en la variable anterior. textconten ya que me ayuda al modificr el texto dentro del elemento h2
   
 
-      const parrafo = document.createElement("p");//creo etiqueta p
+      const parrafo = document.createElement("p");//creo  etiqueta p
       parrafo.textContent=proyecto.content;//lo que esta en proyecto.content se lo asigno al texto dentro de parrafo de p
 
 
@@ -29,8 +72,10 @@ fetch("https://raw.githubusercontent.com/ironhack-jc/mid-term-api/main/projects"
      divided.appendChild(tituloh2);// agreggo el elemento a ser hijo de divided(recent projects)
      divided.appendChild(parrafo);
      contenedor.appendChild(divided);//agreggo el elemento a ser hijo de divided(recent projects)
-      }
-
+      }//for
+ 
       
   })  
   .catch((err) => console.log("no existen datos"+err));  
+
+

@@ -8,14 +8,19 @@
     <link rel="stylesheet" href="resources/styles/style.css" />
     <link rel="stylesheet" href="/midterm-project-boiler/resources/styles/style.css">
   </head>
-  <body>
+  <body id="hidden">
+
+    <div id="centrado">
+    <span class="loader"></span>
+  </div>
+
     <section class="navegacion">
     
         <img src="/midterm-project-boiler/resources/images/logos/circle.svg" alt="">
      
       <nav class="menuNav">
         <a href="index.html">Home</a>
-        <a href="project.html">Projects</a>
+        <a href="#recent_projects">Projects</a>
         <a href="">Services</a>
         <a href="">About</a>
       </nav>
@@ -56,7 +61,7 @@
       <img src="/midterm-project-boiler/resources/images/logos/microsoft-logo.svg" alt="">
     </section>
 
-<section class="recent_projects">
+<section class="recent_projects" id="recent_projects">
   <h2>Recent Projects</h2>
   <div id="recent_projects1">
 <!-- Aqui vann los proyectos de la api -->
@@ -111,7 +116,7 @@
   <p>Let us help you! </p>
   <form  action=""> 
     
-    <input type="email" id="email"placeholder= "Enter your email"/>
+    <input  type="email" id="email"placeholder= "       Enter your email"/>
     <input type="button" id="bto"value="Subscribe">
   </form>
 </section>
@@ -137,5 +142,5 @@
 </div>
 </footer>
 <script src="/midterm-project-boiler/resources/js/project.js"></script>
-  </body>
+</body>
 </html>

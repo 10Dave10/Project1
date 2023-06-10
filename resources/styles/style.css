@@ -8,14 +8,69 @@
   margin: 0;
   padding: 0;
   width: 100%;
-  box-sizing: border-box;
+  box-sizing: border-box; 
   
 }
 
 body {
-  font-family: "Roboto", sans-serif;
   background-color:#ebedf9;
+  font-family: "Roboto", sans-serif;
+
 }
+
+
+/* LOADER */
+
+#hidden{
+  overflow: hidden;
+}
+#centrado{
+  height: 100vh; 
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+
+}
+
+.loader {
+
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: inline-block;
+  border-top: 4px solid #FFF;
+  border-right: 4px solid transparent;
+  box-sizing: border-box;
+  animation: rotation 2s linear infinite;
+
+}
+.loader::after {
+  content: '';  
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border-left: 4px solid #008cff;
+  border-bottom: 4px solid transparent;
+  animation: rotation 1s linear infinite reverse;
+
+}
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+} 
+
+
+
+
 
 
 
@@ -26,8 +81,7 @@ body {
 /* ------------------------------ Splash page ------------------------------ */
 
 /* Your CSS code goes here */
-
-/* ------ CIRCULAR ANIMATION ------ */
+  
 
 /* Your CSS code goes here */
 
@@ -140,22 +194,38 @@ justify-content: center;
 }
 /* ------------------------------ Recent projects ------------------------------ */
 
-/* section #recent_projects{
-  display: flex;
-  flex-direction: row ;
-} */
+/* titulo */
+
+.recent_projects h2:first-child{ 
+font-size: 3rem;  
+margin-bottom: 3rem;
+}
+/* cuerpo  */
 .recent_projects{
   margin: 3rem;
-  padding: 2rem;
+  padding: 5rem;
+}
+.recent_projects img{
+  height: 14rem;
+  margin-bottom: 2rem;
 }
 #recent_projects1{
   display: flex;
   flex-direction: row ;
   padding: 2rem;
+  
 }
 #recent_projects1 div{
 margin-right: 2rem;
+background-color: #fbfcff;
 }
+
+#recent_projects1 div>h2{
+  padding: 1rem;
+  }
+  #recent_projects1 div>p{
+    padding: 1rem;
+    }
 
 /* ------------------------------ Client reviews ------------------------------ */
 
@@ -388,9 +458,70 @@ margin-right: 10%;}
 
 /* Your CSS code goes here */
 
-/* ----------------------------------------------------------------------------- */
-/* ------------------------------ CONTACT-US html ------------------------------ */
-/* ----------------------------------------------------------------------------- */
+/* CONTACT USSSSSSSSSSSSS----------------------------------------------------------------------------- */
+body {
+  background-color: #f7f7f7;
+  color: #333;
+}
+h1 {
+  padding-bottom: 5rem;
+}
+
+form {
+  max-width: 800px;
+  margin: 0 auto;   /* arriba y abajo 0, auto de los lados */
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(11, 88, 255, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+textarea {
+  height: 100px;
+}
+input[type="email"],
+input[type="tel"]{
+  width: 90%;
+}
+
+.datos
+{
+  width: 100%;
+  display:flex;
+  flex-direction: row;
+justify-content:space-between;
+}
+
+input[type="submit"] {
+  background-color: #3caaee;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #022c71;
+}
+
 
 /* ------------------------------ Form ------------------------------ */
 
