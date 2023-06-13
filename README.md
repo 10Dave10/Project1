@@ -56,15 +56,12 @@ Organizar las tareas a realizar, y tomarse todo con calma. Descansar lo necesari
 Gran Error
 Durante el desarrollo del proyecto, cometimos el siguiente gran error:
 
-[Descripción detallada del error cometido]
-
   Falta de organizacion al momento de realizar las tareas del proyecto
 
 [Consecuencias del error]
-  proyecto algo desordenado y no completado de una manera satisfactoria
-
-[Soluciones implementadas para corregir el error]
-
+  proyecto algo desordenado y no completado de una manera satisfactoria.
+  En adicion no poderlo subir a vercel ya que no me carga la pagina correctamente
+  
 [Lecciones aprendidas y recomendaciones para evitar errores similares en el futuro]
 La organizacion y el compartir diferentes puntos de vista es la clave para seguir creciendo. Asi que en una futura ocasion se hara un proyecto a la altura del desafio
 
